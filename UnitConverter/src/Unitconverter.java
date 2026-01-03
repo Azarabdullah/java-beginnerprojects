@@ -19,19 +19,19 @@ public class Unitconverter {
         double result = 0;
 
         switch(option) {
-            case 1: // Km to Miles
+            case 1: // Km to miles...
                 result = value * 0.621371;
                 System.out.println(value + " km = " + result + " miles");
                 break;
-            case 2: // Miles to Km
+            case 2: // Miles to km...
                 result = value / 0.621371;
                 System.out.println(value + " miles = " + result + " km");
                 break;
-            case 3: // Celsius to Fahrenheit
+            case 3: // Celsius to fahrenheit
                 result = (value * 9/5) + 32;
                 System.out.println(value + "°C = " + result + "°F");
                 break;
-            case 4: // Fahrenheit to Celsius
+            case 4: // Fahrenheit to celsius
                 result = (value - 32) * 5/9;
                 System.out.println(value + "°F = " + result + "°C");
                 break;
