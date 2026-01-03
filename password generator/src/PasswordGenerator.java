@@ -4,14 +4,13 @@ import java.util.Scanner;
 public class PasswordGenerator {
     public static void main(String[] args) {
 
-        // Pool of characters for password
         String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
 
         System.out.print("Enter password length: ");
-        int length = sc.nextInt(); // User input for password length
+        int length = sc.nextInt(); // user input password length
 
         String password = "";
 
